@@ -1,7 +1,7 @@
 {
     "username": "root",
-    "password": "password",
-    "host": "127.0.0.1",
+    "password": "${DB_PASSWORD}",
+    "host": "${DB_HOST}",
     "database": "WalmartDB",
     "table_name": "walmart_data"
 }
